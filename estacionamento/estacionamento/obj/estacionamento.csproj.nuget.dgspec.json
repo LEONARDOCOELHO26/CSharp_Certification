@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\leonardo.coelho\\source\\repos\\estacionamento\\estacionamento\\estacionamento.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\leonardo.coelho\\source\\repos\\estacionamento\\estacionamento\\estacionamento.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\leonardo.coelho\\source\\repos\\estacionamento\\estacionamento\\estacionamento.csproj",
+        "projectName": "estacionamento",
+        "projectPath": "C:\\Users\\leonardo.coelho\\source\\repos\\estacionamento\\estacionamento\\estacionamento.csproj",
+        "packagesPath": "C:\\Users\\leonardo.coelho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leonardo.coelho\\source\\repos\\estacionamento\\estacionamento\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leonardo.coelho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {},
+          "https://www.nuget.org/packages/System.Data.SQLite/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
