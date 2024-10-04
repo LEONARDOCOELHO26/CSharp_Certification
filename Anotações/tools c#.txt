@@ -1,0 +1,59 @@
+convert ou parse
+
+lista de convert documento
+cpf
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        long cpf = 13686677911;
+        string cpfString = cpf.ToString("00000000000"); 
+        
+        // Extrair os blocos do CPF
+        string primeiroBloco = cpfString.Substring(0, 3);
+        string segundoBloco = cpfString.Substring(3, 3);
+        string terceiroBloco = cpfString.Substring(6, 3);
+        string finalBloco = cpfString.Substring(9, 2);
+        
+        // Formatar o CPF com pontos e traço
+        string formatadoCpf = $"{primeiroBloco}.{segundoBloco}.{terceiroBloco}-{finalBloco}";
+        
+        Console.WriteLine(formatadoCpf);  
+    }
+}
+cnpj
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        long cnpj = 12123123123412;
+        string cnpjString = cnpj.ToString("00000000000000"); // Garante 14 dígitos
+        
+        // Extrair os blocos do CNPJ
+        string primeiroBloco = cnpjString.Substring(0, 2);
+        string segundoBloco = cnpjString.Substring(2, 3);
+        string terceiroBloco = cnpjString.Substring(5, 3);
+        string quartoBloco = cnpjString.Substring(8, 4);
+        string finalBloco = cnpjString.Substring(12, 2);
+        
+        // Formatar o CNPJ com pontos, barra e traço
+        string formatadoCnpj = $"{primeiroBloco}.{segundoBloco}.{terceiroBloco}/{quartoBloco}-{finalBloco}";
+        
+        Console.WriteLine(formatadoCnpj);  // Exibe o CNPJ formatado: "12.123.123/1234-12"
+    }
+}
+
+rg
+
+endereço
+telefone
+nome/sobrenome
+
+
+https://web.dio.me/lab/criando-um-app-de-cadastro-em-memoria-implementando-crud-de-series-em-net/learning/71b065a5-481e-4eb1-9a4a-31fe33afd6ca
+https://web.dio.me/lab/criando-um-gerenciador-de-espaconaves-do-star-wars-com-sql-server-net/learning/ea00c81d-96a6-40cf-9baa-fd301c89b79d
+https://web.dio.me/lab/criando-seu-e-commerce-de-livros-em-c-e-angular/learning/fe3dd382-cc31-44bb-9f70-ee30826bba30

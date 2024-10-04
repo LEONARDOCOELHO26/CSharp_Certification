@@ -1,0 +1,44 @@
+using System;
+
+//int numero = 1;
+
+/*Console.WriteLine("Taboada usando 1 ao 10 For");
+for(int numero = 0; numero <=10; numero++){
+    Console.WriteLine($"Taboada do {numero}");
+    for(int contador = 0; contador <=10; contador++)
+    {
+        Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+    }
+}*/
+
+
+
+/*Console.WriteLine("Tabuada de 1 a 10 usando 'while'");
+
+int numero = 1; // Inicia com 1 para a tabuada
+while (numero <= 10)
+{
+    Console.WriteLine($"\nTabuada do {numero}");
+
+    int contador = 0;  // Reinicia o contador para 0 a cada nova tabuada
+    while (contador <= 10)
+    {
+        Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+        contador++;
+        if (cotador == 8)
+        {
+            break;
+        }
+    }
+
+    numero++;
+}*/
+
+/*int soma = 0, numero = 0;
+do{
+    Console.WriteLine("Digite um numero (0 para parar)");
+    numero = Convert.ToInt32(Console.ReadLine());
+    
+    soma += numero;
+}while(numero != 0);
+Console.WriteLine($"Total: {soma}");*/

@@ -1,0 +1,46 @@
+using System;
+
+int[] arrayInteiros = new int[3];  // Define um array de inteiros com 3 posições
+//Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2]; 
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+
+arrayInteiros[0] = 12;
+arrayInteiros[1] = 31;
+arrayInteiros[2] = 15;
+
+Console.WriteLine("Array com For");
+
+for (int contador = 0; contador < arrayInteiros.Length; contador++)
+{
+    Console.WriteLine($"Posição N° {contador} = {arrayInteiros[contador]}");
+
+}
+
+Console.WriteLine("Array com fereach");
+
+foreach(int valor in arrayInteiros)
+{
+    Console.WriteLine(valor);
+}
+
+---------------Lista---------------------
+using System;
+using System.Collections.Generic;  // Necessário para usar a classe List
+
+List<string> listaString = new List<string>();
+
+listaString.Add("PR");
+listaString.Add("SC");
+listaString.Add("RS");
+
+for (int contador = 0; contador < listaString.Count; contador++)
+{
+    Console.WriteLine($" {contador} = {listaString[contador]}");
+}
+
+foreach (string item in listaString)
+{
+    Console.WriteLine($"{item}");
+}

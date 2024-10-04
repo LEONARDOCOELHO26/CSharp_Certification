@@ -1,0 +1,51 @@
+using System;
+
+bool ehMaiorDeIdade = true;
+bool possuiAutorizacao = false;
+
+Console.WriteLine("Digite a sua idade");
+string idade = Console.ReadLine();
+
+if (ehMaiorDeIdade || possuiAutorizacao)
+{
+    Console.WriteLine("Liberado");
+}
+else
+{
+    Console.WriteLine("Proibido");
+}
+
+
+using System;
+
+bool Presenca = true;
+double media = 7.25;
+
+
+
+if (Presenca && media >= 7)
+{
+    Console.WriteLine("Aprovado");
+}
+else
+{
+    Console.WriteLine("Reprovado");
+}
+
+
+
+using System;
+
+bool choveu = false;
+bool tarde = false;
+
+
+
+if (!choveu && !tarde)
+{
+    Console.WriteLine("pedalar");
+}
+else
+{
+    Console.WriteLine("nao pedalar");
+}

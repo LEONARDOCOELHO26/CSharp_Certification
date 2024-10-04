@@ -1,0 +1,38 @@
+using System;
+
+string opcao;
+
+while (true)
+{
+    Console.WriteLine("Digite a sua opcao:");
+    Console.WriteLine("1 - Cadastrar");
+    Console.WriteLine("2 - Buscar");
+    Console.WriteLine("3 - Apagar");
+    Console.WriteLine("4 - Sair");
+
+    opcao = Console.ReadLine();
+
+    switch (opcao)
+    {
+        case "1":
+            Console.WriteLine("Cadastrar");
+            break;
+
+        case "2":
+            Console.WriteLine("Buscar");
+            break;
+
+        case "3":
+            Console.WriteLine("Apagar");
+            break;
+
+        case "4":
+            Console.WriteLine("Encerrar");
+            Environment.Exit(0); // Encerra o programa
+            break;
+
+        default:
+            Console.WriteLine("Opcao invalida");
+            break;
+    }
+}
